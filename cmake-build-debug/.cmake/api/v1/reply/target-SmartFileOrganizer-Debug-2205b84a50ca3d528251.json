@@ -110,7 +110,8 @@
 				2,
 				4,
 				6,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -164,6 +165,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/ReportGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/utilities.h",
 			"sourceGroupIndex" : 1
 		}
 	],
