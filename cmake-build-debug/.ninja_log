@@ -7,3 +7,6 @@
 84	3403	7454439607275060	CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj	27b1947be45d677a
 3	345	7454448078685297	build.ninja	a4c2f10846ce85ae
 6	605	7454448085421335	SmartFileOrganizer.exe	63df106f0a97cd51
+29	1479	7454457658173994	CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj	6a6a03ae727627dc
+6	2890	7454457672304379	CMakeFiles/SmartFileOrganizer.dir/src/DuplicateChecker.cpp.obj	dc48690b95b3840b
+2890	3501	7454457678362710	SmartFileOrganizer.exe	63df106f0a97cd51
