@@ -61,11 +61,17 @@ build CMakeFiles/SmartFileOrganizer.dir/src/FileOrganizer.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
   OBJECT_FILE_DIR = CMakeFiles\SmartFileOrganizer.dir\src
 
-build CMakeFiles/SmartFileOrganizer.dir/DuplicateChecker.cpp.obj: CXX_COMPILER__SmartFileOrganizer_Debug C$:/Users/SamiH/Desktop/Github$ Projects/SmartFileOrganizer/DuplicateChecker.cpp || cmake_object_order_depends_target_SmartFileOrganizer
-  DEP_FILE = CMakeFiles\SmartFileOrganizer.dir\DuplicateChecker.cpp.obj.d
+build CMakeFiles/SmartFileOrganizer.dir/src/DuplicateChecker.cpp.obj: CXX_COMPILER__SmartFileOrganizer_Debug C$:/Users/SamiH/Desktop/Github$ Projects/SmartFileOrganizer/src/DuplicateChecker.cpp || cmake_object_order_depends_target_SmartFileOrganizer
+  DEP_FILE = CMakeFiles\SmartFileOrganizer.dir\src\DuplicateChecker.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
-  OBJECT_FILE_DIR = CMakeFiles\SmartFileOrganizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\SmartFileOrganizer.dir\src
+
+build CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj: CXX_COMPILER__SmartFileOrganizer_Debug C$:/Users/SamiH/Desktop/Github$ Projects/SmartFileOrganizer/src/FileSearcher.cpp || cmake_object_order_depends_target_SmartFileOrganizer
+  DEP_FILE = CMakeFiles\SmartFileOrganizer.dir\src\FileSearcher.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\SmartFileOrganizer.dir\src
 
 
 # =============================================================================
@@ -75,7 +81,7 @@ build CMakeFiles/SmartFileOrganizer.dir/DuplicateChecker.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable SmartFileOrganizer.exe
 
-build SmartFileOrganizer.exe: CXX_EXECUTABLE_LINKER__SmartFileOrganizer_Debug CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileOrganizer.cpp.obj CMakeFiles/SmartFileOrganizer.dir/DuplicateChecker.cpp.obj
+build SmartFileOrganizer.exe: CXX_EXECUTABLE_LINKER__SmartFileOrganizer_Debug CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileOrganizer.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/DuplicateChecker.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
