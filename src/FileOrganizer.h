@@ -12,8 +12,9 @@ public:
     explicit FileOrganizer(const std::string& directory);
     void organizeFiles();
 
-private:
+protected:
     std::string directoryPath;
+private:
     void createCategoryFolders();
     void moveFile(const std::string& filePath, const std::string& category);
 };
