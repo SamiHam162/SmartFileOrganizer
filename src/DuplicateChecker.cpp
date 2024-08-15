@@ -63,3 +63,8 @@ void DuplicateChecker::checkForDuplicates() {
         }
     }
 }
+
+// Function to get the map of duplicates
+std::unordered_map<std::size_t, std::vector<std::string>> DuplicateChecker::getDuplicates() const {
+    return hashToFilePaths;
+}

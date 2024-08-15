@@ -73,6 +73,12 @@ build CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
   OBJECT_FILE_DIR = CMakeFiles\SmartFileOrganizer.dir\src
 
+build CMakeFiles/SmartFileOrganizer.dir/src/ReportGenerator.cpp.obj: CXX_COMPILER__SmartFileOrganizer_Debug C$:/Users/SamiH/Desktop/Github$ Projects/SmartFileOrganizer/src/ReportGenerator.cpp || cmake_object_order_depends_target_SmartFileOrganizer
+  DEP_FILE = CMakeFiles\SmartFileOrganizer.dir\src\ReportGenerator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\SmartFileOrganizer.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SmartFileOrganizer
@@ -81,7 +87,7 @@ build CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable SmartFileOrganizer.exe
 
-build SmartFileOrganizer.exe: CXX_EXECUTABLE_LINKER__SmartFileOrganizer_Debug CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileOrganizer.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/DuplicateChecker.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj
+build SmartFileOrganizer.exe: CXX_EXECUTABLE_LINKER__SmartFileOrganizer_Debug CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileOrganizer.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/DuplicateChecker.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj CMakeFiles/SmartFileOrganizer.dir/src/ReportGenerator.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SmartFileOrganizer.dir
