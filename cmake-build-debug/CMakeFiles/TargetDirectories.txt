@@ -1,0 +1,3 @@
+C:/Users/SamiH/Desktop/Github Projects/SmartFileOrganizer/cmake-build-debug/CMakeFiles/SmartFileOrganizer.dir
+C:/Users/SamiH/Desktop/Github Projects/SmartFileOrganizer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SamiH/Desktop/Github Projects/SmartFileOrganizer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
