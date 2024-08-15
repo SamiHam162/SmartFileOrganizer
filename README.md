@@ -1,0 +1,2 @@
+# SmartFileOrganizer
+ The "Smart File Organizer" is a command-line application that automatically organizes files in a directory based on their types. This project involves working with file I/O, the filesystem library, and data structures to efficiently categorize and move files. You can also add features like file search, duplicate file detection, and report generation to make the project more complex.
