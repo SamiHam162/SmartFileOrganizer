@@ -1,7 +1,9 @@
 # ninja log v5
 110	1995	7454439593126970	CMakeFiles/SmartFileOrganizer.dir/tests/test_FileOrganizer.cpp.obj	74729b442b83c24e
-1	2025	7454439593529104	CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj	6a6a03ae727627dc
-58	2488	7454439598162686	CMakeFiles/SmartFileOrganizer.dir/src/ReportGenerator.cpp.obj	d5f3cf14ba8a33e6
-84	3403	7454439607275060	CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj	27b1947be45d677a
 40	3723	7454439610429477	CMakeFiles/SmartFileOrganizer.dir/src/DuplicateChecker.cpp.obj	dc48690b95b3840b
+15	1429	7454447486983792	CMakeFiles/SmartFileOrganizer.dir/src/main.cpp.obj	6a6a03ae727627dc
+58	2488	7454439598162686	CMakeFiles/SmartFileOrganizer.dir/src/ReportGenerator.cpp.obj	d5f3cf14ba8a33e6
 21	3844	7454439611669468	CMakeFiles/SmartFileOrganizer.dir/src/FileOrganizer.cpp.obj	c2841ed80f5a8640
+84	3403	7454439607275060	CMakeFiles/SmartFileOrganizer.dir/src/FileSearcher.cpp.obj	27b1947be45d677a
+3	345	7454448078685297	build.ninja	a4c2f10846ce85ae
+6	605	7454448085421335	SmartFileOrganizer.exe	63df106f0a97cd51

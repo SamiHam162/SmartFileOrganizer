@@ -28,7 +28,7 @@ private:
     std::string directoryPath;
 
     // Map to store duplicate files based on their hash
-    std::unordered_map<std::size_t, std::vector<std::string>> hashToFilePaths;
+    std::unordered_map<std::size_t, std::vector<std::string>> removedFiles;
 };
 
 #endif //SMARTFILEORGANIZER_DUPLICATECHECKER_H

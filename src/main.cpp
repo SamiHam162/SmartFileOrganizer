@@ -7,7 +7,7 @@
 
 int main() {
     // Specify the directory to check for duplicates and organize files
-    std::string directoryPath = "/path/to/your/directory";
+    std::string directoryPath = R"(C:\Users\SamiH\Desktop\Github Projects\SmartFileOrganizer\tests\Directory)";
 
     // Step 1: Check for duplicates and remove them
     DuplicateChecker checker(directoryPath);

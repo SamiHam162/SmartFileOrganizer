@@ -58,6 +58,7 @@ void DuplicateChecker::checkForDuplicates() {
             for (size_t i = 1; i < paths.size(); ++i) {
                 std::cout << " - Removing " << paths[i] << std::endl;
                 fs::remove(paths[i]);  // Remove the duplicate file
+                removedFiles[hash].push_back(paths[i]);
             }
             std::cout << std::endl;
         }
@@ -66,5 +67,5 @@ void DuplicateChecker::checkForDuplicates() {
 
 // Function to get the map of duplicates
 std::unordered_map<std::size_t, std::vector<std::string>> DuplicateChecker::getDuplicates() const {
-    return hashToFilePaths;
+    return removedFiles;
 }
